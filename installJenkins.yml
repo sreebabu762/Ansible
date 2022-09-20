@@ -1,4 +1,4 @@
-- hosts: jenkinsServer
+- hosts: TomCatServers
   become: yes
   tasks:
   - name: Download Long Term Jenkins release
