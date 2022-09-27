@@ -1,6 +1,6 @@
 #This play book will explains handlers as well.
 ---
-- hosts: Group2
+- hosts: Group1
   become: true
   tasks:
     - name: Install Apache HTTP Server
